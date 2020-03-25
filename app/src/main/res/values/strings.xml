@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="to_do_list">TO DO List</string>
+    <string name="enter_the_title_of_list">Enter the Title of List</string>
+    <string name="add_list">+ Add List</string>
+    <string name="remove_completed_tasks">Remove Completed Tasks</string>
+    <string name="enter_the_task">Enter the Task</string>
+    <string name="add_task">+ Add Task</string>
+    <string name="assignment">Assignment</string>
+    <string name="create_list_view">Create List View</string>
+    <string name="star">star</string>
+    <string name="dustbin">dustbin</string>
+    <string name="check">check</string>
+    <string name="list">list</string>
+</resources>

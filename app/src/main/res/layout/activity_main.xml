@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_do_list"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:id="@+id/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/linear">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_the_title_of_list"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:id="@+id/editText"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_list"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:id="@+id/addList"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear"
+        android:id="@+id/list"/>
+</RelativeLayout>
